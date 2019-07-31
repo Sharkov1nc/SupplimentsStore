@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/vladi', function () {
+    return view('home',['vladi' => 'Vladimir Mollov']);
+});
