@@ -16,4 +16,7 @@ Route::get('/', function () {
 });
 Route::get('/vladi', function () {
     return view('home',['vladi' => 'Vladimir Mollov']);
-});
+})->name("homePage");
+Route::get('/login', function () {
+    return view('login');
+})->name("Login");
