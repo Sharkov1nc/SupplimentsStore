@@ -11,12 +11,35 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/vladi', function () {
-    return view('home',['vladi' => 'Vladimir Mollov']);
-})->name("homePage");
-Route::get('/login', function () {
-    return view('login');
-})->name("Login");
+
+/**
+ * @pagesRoutes
+ *
+*/
+Route::get('/', function (){
+    return view("home_page");
+})->name("Home");
+Route::get('/search', function (){
+    return view("search");
+})->name("Search");
+Route::get('/shoppingCart', function (){
+    return view("shopping_cart");
+})->name("ShoppingCart");
+Route::get('/product', function (){
+    return view("product");
+})->name("Product");
+Route::get('/payments', function (){
+    return view("payments");
+})->name("Payments");
+Route::get('/contacts', function (){
+    return view("contacts");
+})->name("Contacts");
+
+
+/**
+ * @loginRoutes
+ *
+*/
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
