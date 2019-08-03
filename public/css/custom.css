@@ -1,0 +1,7 @@
+.am-top-header {
+    background-color: #3d3c3c;
+    color: #e1e1e1;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: #3d3c3c;
+}

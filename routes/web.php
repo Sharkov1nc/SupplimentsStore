@@ -31,6 +31,12 @@ Route::get('/product', function (){
 Route::get('/payments', function (){
     return view("payments");
 })->name("Payments");
+Route::get('/userSettings', function (){
+    return view("user_settings");
+})->name("userSettings");
+Route::get('/articles', function (){
+    return view("articles");
+})->name("Articles");
 Route::get('/contacts', function (){
     return view("contacts");
 })->name("Contacts");
