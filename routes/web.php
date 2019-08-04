@@ -46,6 +46,6 @@ Route::get('/contacts', function (){
  * @loginRoutes
  *
 */
-Auth::routes();
-
+Route::get("/logout_auth","Auth\LoginController@logout")->name("logoutAuth");
 Route::get('/home', 'HomeController@index')->name('home');
+Auth::routes();

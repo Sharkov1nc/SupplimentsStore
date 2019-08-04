@@ -22,10 +22,11 @@
                             </div>
                         </div>
                         <div class="description">
-                            <div class="icon"><a href="#"><i class="s7-like"></i></a></div>
+                            {{--<div class="icon"><a href="#"><i class="s7-like"></i></a></div>--}}
                             <div class="desc">
                                 <h4>Hemo-Rage Pre-workout</h4><span>Best Seller</span>
                             </div>
+                            <div class="icon"><a href="#"><i class="s7-cart"></i></a></div>
                         </div>
                     </div>
                 </div>

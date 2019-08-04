@@ -5,3 +5,13 @@
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     background-color: #3d3c3c;
 }
+.modal-full-color-dark > .modal-content > .modal-header {
+    background-color: #ee5454;
+}
+.modal-content {
+    margin: 10% auto;
+    max-width: 530px;
+}
+.modal-trigger-buttons{
+    cursor:  pointer;
+}
