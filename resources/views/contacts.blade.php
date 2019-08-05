@@ -1,11 +1,19 @@
-@extends('default)
+@extends('default')
 @section('libsCSS')
 
 @endsection
 @section('content')
 
 
-    <!--  Тука блъскаш HTML -->
+    asddfasfasdg
+    fsadfsdfsda
+    sdfasd
+    fasdf
+    sfsad
+    fsda
+    fsda
+    fasfasdfsa
+    sdaf
 
 
 @endsection

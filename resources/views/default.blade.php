@@ -153,10 +153,10 @@
                 </li>
                 @endguest
                 <li class="">
-                    <a href=""><i class="icon s7-science"></i><span>Articles</span></a>
+                    <a href="{{route("Articles")}}"><i class="icon s7-science"></i><span>Articles</span></a>
                 </li>
                 <li class="">
-                    <a href=""><i class="icon s7-call"></i><span>Contacts</span></a>
+                    <a href="{{route("Contacts")}}"><i class="icon s7-call"></i><span>Contacts</span></a>
                 </li>
             </ul>
             <!--Sidebar bottom content-->

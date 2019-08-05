@@ -1,4 +1,4 @@
-@extends('default)
+@extends('default')
 @section('libsCSS')
 
 @endsection
